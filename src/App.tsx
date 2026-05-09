@@ -46,7 +46,7 @@ export default function App() {
           <span className="text-2xl font-semibold text-slate-100">Electrical</span>
         </div>
         <p className="relative z-10 text-xl text-slate-400 mb-8 max-w-2xl mx-auto">
-          Reliable electrical services in Durbanville, Cape Town — 4.6 stars on Google. Available 24/7 for all your electrical needs.
+          Reliable electrical services in Durbanville, Cape Town. Available 24/7 for all your electrical needs.
         </p>
         <div className="relative z-10 flex gap-4 justify-center flex-wrap">
           <a href="#booking" onClick={() => setFormData({...formData, requestType: 'booking'})} className="bg-amber-500 text-black px-8 py-3 rounded-lg font-bold hover:bg-amber-400 transition">Book Now</a>
@@ -58,7 +58,7 @@ export default function App() {
       <div className="bg-black border-b border-slate-800 py-6 text-center">
         <a href="https://maps.app.goo.gl/5k4Km71JsrfLzo7X6" target="_blank" className="flex items-center justify-center gap-2 text-slate-300 hover:text-amber-500 transition">
           <ShieldCheck className="text-amber-500" />
-          <span className="font-semibold">Google Verified Electrician — 4.6 ★</span>
+          <span className="font-semibold">Google Verified Electrician</span>
         </a>
       </div>
 
